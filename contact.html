@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Robin Williams - Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div id="myTopnav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <h1>Robin Williams</h1>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>      
+        </div>
+    </header>
+
+    <section>
+        <div>   
+            <h2>Sign Up for the Robin Williams Fan Club</h2>
+            <div class="container">
+                <form action="/action_page.php">
+                
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                    </div>
+                    
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                  </div>
+                  
+                   <div class="row">
+                    <div class="col-25">
+                      <label for="email">Email</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="email" name="email" placeholder="Your email...">
+                    </div>
+                  </div>
+                  
+                    <div class="row">
+                    <div class="col-25">
+                      <label for="address">Street Address</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="address" name="address" placeholder="Your street address...">
+                    </div>
+                  </div>
+                  
+                    <div class="row">
+                    <div class="col-25">
+                      <label for="city">City</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="city" name="address" placeholder="City...">
+                    </div>
+                  </div>
+                  
+                    <div class="row">
+                    <div class="col-25">
+                      <label for="state">State</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="state" name="address" placeholder="State...">
+                    </div>
+                  </div>
+                  
+                       <div class="row">
+                    <div class="col-25">
+                      <label for="zip">Zip</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="zip" name="address" placeholder="Zip Code...">
+                    </div>
+                  </div>
+                 
+                  <div class="row">
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
+        </div>
+        <br>
+        <br>
+        <footer>
+            <br>
+            <a href="https://twitter.com/robinwiliiams_?lang=en"><img src="images/twitter.png" style="width:5%"></a>
+            <a href="https://www.facebook.com/Robin-Williams-1951-2014-1467215200198331/"><img src="images/fb.png" style="width:5%"></a>
+            <a href="https://www.instagram.com/therobinwilliams/?hl=en"><img src="images/insta.png" style="width:5%"></a>
+            <br>
+        </footer>
+    </section>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
